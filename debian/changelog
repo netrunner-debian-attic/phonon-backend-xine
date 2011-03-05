@@ -1,5 +1,6 @@
 phonon-backend-xine (4:4.6.0really4.4.4-2) UNRELEASED; urgency=low
 
+  * Add phonon-backend-xine-dbg package.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 05 Mar 2011 04:39:58 +0200
 

@@ -21,3 +21,16 @@ Description: Phonon Xine 1.1.x backend
  This package contains the Xine 1.1.x backend for Phonon multimedia framework.
  It transparently adapts and reroutes all requests from Phonon applications to
  Xine which in turn performs requested audio/video decoding/capture tasks.
+
+Package: phonon-backend-xine-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: ${misc:Depends}, phonon-backend-xine (= ${binary:Version})
+Replaces: phonon-dbg (<< 4:4.6.0really4.4.4)
+Breaks: phonon-dbg (<< 4:4.6.0really4.4.4)
+Description: debugging symbols for the Phonon Xine backend
+ This package contains debugging symbols for the Phonon Xine backend. If you
+ have a problem with this backend and wish to debug it or you have been asked
+ to provide a backtrace of the crash inside the Phonon internals, you may find
+ this package useful.
