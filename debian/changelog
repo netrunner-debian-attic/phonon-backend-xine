@@ -1,0 +1,5 @@
+phonon-backend-xine (4:4.6.0really4.4.4-0r1) UNRELEASED; urgency=low
+
+  * Initial release (based on phonon 4:4.6.0really4.4.3-1).
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 05 Mar 2011 03:52:41 +0200

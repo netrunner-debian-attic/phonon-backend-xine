@@ -1,0 +1,182 @@
+phonon package was debianized by the Debian Qt/KDE Maintainers
+on Thu, 12 Jun 2008 15:01:17 +0200
+
+phonon-backend-xine was debianized by the Debian Qt/KDE Maintainers
+on Sat, 05 Mar 2011 04:01:06 +0200
+
+It was downloaded from ftp://ftp.kde.org/pub/kde/stable/phonon/phonon-backend-xine/
+
+Upstream Author:
+
+    Matthias Kretz <kretz@kde.org> and others.
+
+The Debian packaging (debian/*) is © 2008-2011, Debian Qt/KDE Maintainers and
+is licensed under the LGPL version 2 or later, see
+`/usr/share/common-licenses/LGPL-2'
+
+Copyright and licenses:
+
+Copyright: © 2005-2008 Matthias Kretz <kretz@kde.org>
+Copyright: © 2006 Tim Beaulen <tbscope@gmail.com>
+Copyright: © 2000-2008 the xine project
+Copyright: © 2004 Max Howell <max.howell@methylblue.com>
+Copyright: © 2008 Helio Chissini de Castro <helio@kde.org>
+Copyright: © 2008 Ian Monroe <imonroe@kde.org>
+Copyright: © 2009 Martin Sandsmark <sandsmark@samfundet.no>
+Copyright: © 2006-2007 Laurent Montel <montel@kde.org>
+Copyright: © 1992-2008 Trolltech ASA. All Rights Reserved.
+Copyright: © 2009 Artur Szymiec <artur.szymiec@gmail.com>
+Copyright: © 2001 Anders Johansson <ajh@atri.curtin.edu.au>
+Copyright: ©  Mike Melanson <melanson@pcisys.net>
+Copyright: © 2010 Harald Sitter <sitter@kde.org>
+
+
+License for all components unless stated otherwise:
+--
+  GNU Library General Public License, version 2 or later (LGPL-2+)
+
+    xine/* excluding:
+    -? xine/CMakeLists.txt
+    -+ xine/bytestreamplugin.cpp
+    -+ xine/demux_wav.c
+    -+ xine/keepreference.h
+    -+ xine/macros.h
+    -+ xine/myshareddatapointer.h
+    -+ xine/net_buf_ctrl.c
+    -+ xine/net_buf_ctrl.h
+    -+ xine/shareddata.h
+
+  On Debian systems, the complete text of the
+  GNU Library General Public License version 2 can be found in
+  /usr/share/common-licenses/LGPL-2
+--
+
+Other used licenses:
+--
+    cmake/*
+    + *.cmake
+
+  | Redistribution and use in source and binary forms, with or without
+  | modification, are permitted provided that the following conditions
+  | are met:
+  |
+  | 1. Redistributions of source code must retain the copyright
+  |    notice, this list of conditions and the following disclaimer.
+  | 2. Redistributions in binary form must reproduce the copyright
+  |    notice, this list of conditions and the following disclaimer in the
+  |    documentation and/or other materials provided with the distribution.
+  | 3. The name of the author may not be used to endorse or promote products
+  |    derived from this software without specific prior written permission.
+  |
+  | THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+  | IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+  | OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+  | IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+  | INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+  | NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  | DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  | THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  | (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+  | THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+--
+--
+  GNU General Public License, version 2 or 3 or later (GPL-2or3+)
+    The following file is licensed under this license:
+
+    + xine/myshareddatapointer.h
+
+  | This file may be used under the terms of the GNU General Public
+  | License versions 2.0 or 3.0 as published by the Free Software
+  | Foundation and appearing in the files LICENSE.GPL2 and LICENSE.GPL3
+  | included in the packaging of this file.  Alternatively you may (at
+  | your option) use any later version of the GNU General Public
+  | License if such license has been publicly approved by Trolltech ASA
+  | (or its successors, if any) and the KDE Free Qt Foundation. In
+  | addition, as a special exception, Trolltech gives you certain
+  | additional rights. These rights are described in the Trolltech GPL
+  | Exception version 1.2, which can be found at
+  | http://www.trolltech.com/products/qt/gplexception/.
+
+
+  On Debian systems, the complete text of the:
+
+  * GNU General Public License version 2 can be found in
+    /usr/share/common-licenses/GPL-2
+  * GNU General Public License version 3 can be found in
+    /usr/share/common-licenses/GPL-3
+--
+
+--
+  GNU General Public License, version 2 (GPL-2)
+    The following file is licensed under this license:
+
+    + xine/bytestreamplugin.cpp
+
+  | This program is free software; you can redistribute it and/or modify
+  | it under the terms of the GNU General Public License version 2
+  | as published by the Free Software Foundation.
+  |
+  | This program is distributed in the hope that it will be useful,
+  | but WITHOUT ANY WARRANTY; without even the implied warranty of
+  | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  | GNU General Public License for more details.
+
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+
+--
+  GNU General Public License, version 2 or later (GPL-2+)
+    4 files are licensed under this license:
+
+    + xine/demux_wav.c
+    + xine/net_buf_ctrl.c
+    + xine/net_buf_ctrl.h
+    + xine/shareddata.h
+
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+
+--
+  GNU Library General Public License, version 2 (LGPL-2)
+    The following file is licensed under this license:
+
+    + xine/keepreference.h
+
+  | This library is free software; you can redistribute it and/or
+  | modify it under the terms of the GNU Library General Public
+  | License version 2 as published by the Free Software Foundation.
+  |
+  | This library is distributed in the hope that it will be useful,
+  | but WITHOUT ANY WARRANTY; without even the implied warranty of
+  | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  | Library General Public License for more details.
+
+  On Debian systems, the complete text of the
+  GNU Library General Public License version 2 can be found in
+  /usr/share/common-licenses/LGPL-2
+--
+
+--
+  GNU Lesser General Public License, version 2.1 or later (LGPL-2.1+)
+    The following file is licensed under this license:
+
+    + xine/macros.h
+
+  | This library is free software; you can redistribute it and/or
+  | modify it under the terms of the GNU Lesser General Public
+  | License as published by the Free Software Foundation; either
+  | version 2.1 of the License, or (at your option) version 3, or any
+  | later version accepted by the membership of KDE e.V. (or its
+  | successor approved by the membership of KDE e.V.), Nokia Corporation
+  | (or its successors, if any) and the KDE Free Qt Foundation, which shall
+  | act as a proxy defined in Section 6 of version 3 of the license.
+
+  On Debian systems, the complete text of the
+  GNU Lesser General Public License version 2.1 can be found in
+  /usr/share/common-licenses/LGPL-2.1
+--
+

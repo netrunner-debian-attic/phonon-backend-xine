@@ -1,0 +1,23 @@
+Source: phonon-backend-xine
+Section: sound
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Modestas Vainius <modax@debian.org>
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.4.13), cmake (>= 2.6.2),
+ pkg-kde-tools (>= 0.9), automoc, libphonon-dev (>= 4:4.6.0really4.4.4),
+ libphononexperimental-dev (>= 4:4.6.0really4.4.4),
+ libqt4-dev (>= 4.5), libxine-dev (>= 1.1.16.3), libxcb1-dev, libx11-dev
+Build-Conflicts: libxine2
+Standards-Version: 3.9.1
+Homepage: http://phonon.kde.org/
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/phonon-backend-xine.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-std/phonon-backend-xine.git
+
+Package: phonon-backend-xine
+Architecture: any
+Provides: phonon-backend
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${xine-x:Depends}
+Description: Phonon Xine 1.1.x backend
+ This package contains the Xine 1.1.x backend for Phonon multimedia framework.
+ It transparently adapts and reroutes all requests from Phonon applications to
+ Xine which in turn performs requested audio/video decoding/capture tasks.
