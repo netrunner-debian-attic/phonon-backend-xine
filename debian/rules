@@ -1,13 +1,15 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
+dh = --with=xine
 
-DEB_CMAKE_EXTRA_FLAGS += -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/
-DEB_DESTDIR := $(CURDIR)/debian/tmp
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xphonon
-DEB_DH_SHLIBDEPS_ARGS_ALL := -- -xphonon
+override_dh_auto_configure:
+	$(overriden_command) -- -DPLUGIN_INSTALL_DIR=/usr/lib/qt4/
 
-binary-predeb/phonon-backend-xine::
-	dh_xine -pphonon-backend-xine
+override_dh_shlibdeps:
+	$(overriden_command) -- -xphonon
+
+override_dh_strip:
+	$(overriden_command) --dbg-package=phonon-backend-xine-dbg
 
