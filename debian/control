@@ -8,7 +8,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.4.13), cmake (>= 2.6.2),
  libphononexperimental-dev (>= 4:4.6.0really4.4.4),
  libqt4-dev (>= 4.5), libxine-dev (>= 1.1.16.3), libxcb1-dev, libx11-dev
 Build-Conflicts: libxine2
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Homepage: http://phonon.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/phonon-backend-xine.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-std/phonon-backend-xine.git
